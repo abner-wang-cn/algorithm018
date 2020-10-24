@@ -1,3 +1,6 @@
+/**
+ * 删除排序数组中的重复项
+ * */
 public class DeletDumplicate {
     public int removeDuplicates(int[] nums) {
         if(nums.length==0){

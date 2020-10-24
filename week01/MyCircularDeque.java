@@ -1,12 +1,16 @@
+
 /**
-*数组尾为队列尾，数组头为队列头
+*设计循环双端队列
 */
 class MyCircularDeque {
+
     int[] arr;
     int front;
     int rear;
     int capacity;
-
+/**
+*数组尾为队列尾，数组头为队列头
+*/
     /** Initialize your data structure here. Set the size of the deque to be k. */
     public MyCircularDeque(int k) {
         capacity = k+1;

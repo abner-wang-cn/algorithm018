@@ -1,5 +1,6 @@
 /**
  * 加一
+ * 这个解法其实没有充分利用+1这个条件，加任何小于10的数都适用
  * */
 public class PlusOne{
     public int[] plusOne(int[] digits) {
